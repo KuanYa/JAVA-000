@@ -500,10 +500,10 @@
   * `sb -u http://localhost:8088/api/hello -c 20 -N 60`
   * 参数
      	1. `java -jar -XX:+UseParallelGC -Xmx2g -Xms2g gateway-server-0.0.1-SNAPSHOT.jar`
-         * 第一次压测吞吐量：
-         * 第二次压测吞吐量：
-         * 第三次压测吞吐量：
-         * 平均吞吐量：
+         * 第一次压测吞吐量：2710
+         * 第二次压测吞吐量：3158.9
+         * 第三次压测吞吐量：3188.9
+         * 平均吞吐量：3,019.2
         	2. `java -jar -XX:+UseConcMarkSweepGC -Xmx2g -Xms2g gateway-server-0.0.1-SNAPSHOT.jar`
          * 第一次压测吞吐量：2847.8
          * 第二次压测吞吐量：2868.5
@@ -514,3 +514,6 @@
          * 第二次压测吞吐量：2574.3
          * 第三次压测吞吐量：2789.1
          * 平均吞吐量：2,734.4
+
+* 总结：
+  * 吞吐量： CMS  GC > ParallelGC > G1 GC
