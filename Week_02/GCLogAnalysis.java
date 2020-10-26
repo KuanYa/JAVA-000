@@ -38,6 +38,15 @@ public class GCLogAnalysis {
         int type = randomSize % 4;
         Object result = null;
         switch (type) {
+            case 0:
+                result = new int[randomSize];
+                break;
+            case 1:
+                result = new byte[randomSize];
+                break;
+            case 2:
+                result = new double[randomSize];
+                break;
             default:
                 StringBuilder builder = new StringBuilder();
                 String randomString = "randomString-Anything";
