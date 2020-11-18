@@ -1,4 +1,4 @@
-package io.kimmking.jdbc.action;
+package com.baifukaun.spring.week05.spring.jdbc.action;
 
 import io.kimmking.jdbc.impl.UserServiceImpl;
 

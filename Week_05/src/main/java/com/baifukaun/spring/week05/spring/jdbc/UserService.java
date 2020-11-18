@@ -1,8 +1,6 @@
-package io.kimmking.jdbc;
+package com.baifukaun.spring.week05.spring.jdbc;
 
-import io.kimmking.bean.initialization.User;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+import com.baifukaun.spring.week05.spring.bean.initialization.User;
 
 import java.util.List;
 

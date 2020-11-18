@@ -1,4 +1,4 @@
-package io.kimmking.bean.initialization;
+package com.baifukaun.spring.week05.spring.bean.initialization;
 
 public class User {
 

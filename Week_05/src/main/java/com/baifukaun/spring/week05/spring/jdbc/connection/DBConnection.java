@@ -1,4 +1,4 @@
-package io.kimmking.jdbc.connection;
+package com.baifukaun.spring.week05.spring.jdbc.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,4 +1,4 @@
-package io.kimmking.bean.initialization;
+package com.baifukaun.spring.week05.spring.bean.initialization;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

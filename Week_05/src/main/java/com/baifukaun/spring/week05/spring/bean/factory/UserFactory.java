@@ -1,4 +1,4 @@
-package io.kimmking.bean.factory;
+package com.baifukaun.spring.week05.spring.bean.factory;
 
 import io.kimmking.bean.initialization.User;
 

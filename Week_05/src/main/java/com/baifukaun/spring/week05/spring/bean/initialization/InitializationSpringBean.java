@@ -1,7 +1,7 @@
-package io.kimmking.bean.initialization;
+package com.baifukaun.spring.week05.spring.bean.initialization;
 
-import io.kimmking.bean.factory.DefaultUserFactory;
-import io.kimmking.bean.factory.UserFactory;
+import com.baifukaun.spring.week05.spring.bean.factory.DefaultUserFactory;
+import com.baifukaun.spring.week05.spring.bean.factory.UserFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

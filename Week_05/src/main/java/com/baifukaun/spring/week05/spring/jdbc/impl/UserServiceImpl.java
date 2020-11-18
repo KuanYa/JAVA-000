@@ -1,9 +1,9 @@
-package io.kimmking.jdbc.impl;
+package com.baifukaun.spring.week05.spring.jdbc.impl;
 
-import io.kimmking.bean.initialization.User;
-import io.kimmking.jdbc.UserService;
-import io.kimmking.jdbc.connection.DBConnection;
-import org.springframework.stereotype.Service;
+
+import com.baifukaun.spring.week05.spring.bean.initialization.User;
+import com.baifukaun.spring.week05.spring.jdbc.UserService;
+import com.baifukaun.spring.week05.spring.jdbc.connection.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
