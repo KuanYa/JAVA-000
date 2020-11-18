@@ -4,6 +4,7 @@ package com.baifukaun.spring.week05.spring.jdbc.impl;
 import com.baifukaun.spring.week05.spring.bean.initialization.User;
 import com.baifukaun.spring.week05.spring.jdbc.UserService;
 import com.baifukaun.spring.week05.spring.jdbc.connection.DBConnection;
+import com.baifukaun.spring.week05.spring.jdbc.connection.HikariConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -57,12 +58,12 @@ public class UserServiceImpl implements UserService {
     @Override
     public void addUser() throws Exception {
         try {
-            connection = DBConnection.getConnection();
+            connection = HikariConnection.connection;
             String sql = "insert into `user` (`username`, `age`, `password`) values(?,?,?)";
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, "xiec1hunying");
             preparedStatement.setInt(2, 18);
-            preparedStatement.setString(3, "1234516");
+            preparedStatement.setString(3, "098765431");
             preparedStatement.executeUpdate();
         } finally {
             if (preparedStatement != null) {

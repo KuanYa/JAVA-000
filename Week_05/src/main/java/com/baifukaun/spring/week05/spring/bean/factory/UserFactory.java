@@ -1,6 +1,7 @@
 package com.baifukaun.spring.week05.spring.bean.factory;
 
-import io.kimmking.bean.initialization.User;
+
+import com.baifukaun.spring.week05.spring.bean.initialization.User;
 
 /**
  * {@link User} 工厂类
