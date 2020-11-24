@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <context:component-scan base-package="com.baifukaun.spring.week05.spring.bean.factory.domain"/>
+
+   <!-- 通过配置文件装配 -->
+    <bean id="user-by-xml" class="com.baifukaun.spring.week05.spring.bean.factory.domain.User">
+        <property name="username" value="我是通过xml装配的------> baifukuan"/>
+        <property name="age" value="18"/>
+    </bean>
+
+</beans>

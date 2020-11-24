@@ -1,7 +1,7 @@
 package com.baifukaun.spring.week05.spring.bean.factory;
 
 
-import com.baifukaun.spring.week05.spring.bean.initialization.User;
+import com.baifukaun.spring.week05.spring.bean.factory.domain.User;
 
 /**
  * {@link User} 工厂类

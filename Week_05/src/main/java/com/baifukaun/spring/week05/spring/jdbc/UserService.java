@@ -1,6 +1,6 @@
 package com.baifukaun.spring.week05.spring.jdbc;
 
-import com.baifukaun.spring.week05.spring.bean.initialization.User;
+import com.baifukaun.spring.week05.spring.bean.factory.domain.User;
 
 import java.util.List;
 

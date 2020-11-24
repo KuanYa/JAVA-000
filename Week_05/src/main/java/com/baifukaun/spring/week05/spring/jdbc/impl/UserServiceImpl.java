@@ -1,7 +1,7 @@
 package com.baifukaun.spring.week05.spring.jdbc.impl;
 
 
-import com.baifukaun.spring.week05.spring.bean.initialization.User;
+import com.baifukaun.spring.week05.spring.bean.factory.domain.User;
 import com.baifukaun.spring.week05.spring.jdbc.UserService;
 import com.baifukaun.spring.week05.spring.jdbc.connection.DBConnection;
 import com.baifukaun.spring.week05.spring.jdbc.connection.HikariConnection;
@@ -61,11 +61,12 @@ public class UserServiceImpl implements UserService {
             connection = HikariConnection.connection;
             String sql = "insert into `user` (`username`, `age`, `password`) values(?,?,?)";
             preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1, "xiec1hunying");
+            preparedStatement.setString(1, "xiechunying");
             preparedStatement.setInt(2, 18);
-            preparedStatement.setString(3, "098765431");
+            preparedStatement.setString(3, "0987654321");
             preparedStatement.executeUpdate();
         } finally {
+            connection.rollback();
             if (preparedStatement != null) {
                 preparedStatement.close();
             }
