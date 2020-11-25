@@ -1,4 +1,4 @@
-### 一、作业表结构
+### 作业表结构
 
 #### 1.用户表
 
@@ -78,3 +78,4 @@ CREATE TABLE `r_goods_order` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='商品与订单关联表';
 ```
+
