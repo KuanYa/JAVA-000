@@ -16,5 +16,9 @@ public class Xml {
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("classpath:/META-INF/user-bean.xml");
         User user = classPathXmlApplicationContext.getBean("user-by-xml",User.class);
         System.out.println(user);
+
+        // 通过beanFactory 工厂装配
+        User factoryBeanUser = classPathXmlApplicationContext.getBean("user-by-bean-factory",User.class);
+        System.out.println(factoryBeanUser);
     }
 }
