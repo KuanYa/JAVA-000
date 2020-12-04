@@ -1,0 +1,65 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      # 主库
+      master:
+        url: jdbc:mysql://localhost:3317/db?serverTimezone=UTC
+        username: root
+        password:
+      # 从
+      slave:
+        enabled: true
+        url: jdbc:mysql://localhost:3318/db?serverTimezone=UTC
+        username: root
+        password:
+      # 最小连接池数量
+      initialSize: 5
+      # 最小连接数
+      minIdle: 10
+      # 最大连接池数量
+      maxActive: 10
+      # 连接等待时间
+      maxWait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      timeBetweenEvictionRunsMillis: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis: 300000
+      # 配置一个连接在池中最大生存的时间，单位是毫秒
+      maxEvictableIdleTimeMillis: 900000
+      # �配置检测连接是否有效
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      webStatFilter:
+        enabled: true
+      statViewServlet:
+        enabled: true
+        # 设置白名单，不填则允许所有访问
+        allow:
+        url-pattern: /druid/*
+        # 控制台管理用户名和密码
+        login-username:
+        login-password:
+      filter:
+        stat:
+          enabled: true
+          # 慢SQL记录
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+mybatis:
+  # configuration:
+  # map-underscore-to-camel-case: true
+  # 指定全局配置文件位置
+  config-location: classpath:mybatis-config.xml
+  # 指定sql映射文件位置
+  mapper-locations: classpath:mapper/*.xml
+logging:
+  level:
+    root: info
