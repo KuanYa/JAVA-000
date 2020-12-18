@@ -5,10 +5,9 @@
 **（必做）**改造自定义 RPC 的程序，提交到 GitHub：
 
 - 尝试将服务端写死查找接口实现类变成泛型和反射；
-
 - 尝试将客户端动态代理改成 AOP，添加异常处理；
-
 - 尝试使用 Netty+HTTP 作为 client 端传输方式。
+  - 目前对于Netty 了解不够深入，深入学习后回来完善包括之前遗留的网关的作业
 
 
 地址：https://github.com/KuanYa/JavaCourseCodes/tree/main/07rpc/rpc01
