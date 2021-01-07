@@ -15,12 +15,12 @@ public class Client1 {
 
     public static void main(String[] args) {
         // 模拟一个客户端获取锁
-        Jedis jedis = new Jedis("localhost", 6379);
-        boolean flag = GetLock.tryGetDistributedLock(jedis, GetLock.LOCK_KEY, RANDOM_UUID, 100000);
+        Jedis jedis = new Jedis("127.0.0.1", 6380);
+        boolean flag = GetLock.tryGetDistributedLock(jedis, GetLock.LOCK_KEY, RANDOM_UUID, 10000);
         try {
             if (flag) {
                 // 代表获取到锁，可以执行后面你的操作
-                System.out.println("我获取到了锁 。。。。。。。。。。" + "客户端value值 " + RANDOM_UUID);
+                System.out.println("我获取到了锁 。。。。。。。。。。" + "客户一唯一值 " + RANDOM_UUID);
             } else {
                 System.out.println("获取锁失败，锁已经被其他客户端持有。。。。");
             }

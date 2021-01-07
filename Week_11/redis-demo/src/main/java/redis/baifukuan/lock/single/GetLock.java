@@ -32,7 +32,7 @@ public class GetLock {
      */
     public static boolean tryGetDistributedLock(Jedis jedis, String lockKey, String requestId, int expireTime) {
         // 只有 key 不存在时，SET 才会创建 key，并对 key 进行赋值
-        String result = jedis.set(lockKey, requestId, SET_IF_NOT_EXIST, SET_WITH_EXPIRE_TIME, expireTime);
+        String result = jedis.set(lockKey, requestId);
         if (LOCK_SUCCESS.equals(result)) {
             return true;
         }

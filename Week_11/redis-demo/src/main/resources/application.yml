@@ -12,7 +12,17 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-spring:
-  redis:
-    host: localhost
-    port: 6379
+server:
+  port: 8080
+  spring:
+    application:
+      name: redis-demo
+    redis:
+      cluster:
+        nodes: 127.0.0.1:6379, 127.0.0.1:6380, 127.0.0.1:6381
+        lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 8
+        max-active: 20
+
