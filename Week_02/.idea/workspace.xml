@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6242ac4d-cf00-41b4-bd31-06df98102681" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\HP\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Users\HP\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1jHUBJ5hBGrhdobMvWlNqRRWLeD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java-training-camp\JAVA-000\JAVA-000\Week_02\httpclient" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6242ac4d-cf00-41b4-bd31-06df98102681" name="Default Changelist" comment="" />
+      <created>1603460373359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603460373359</updated>
+      <workItem from="1603460374841" duration="1976000" />
+      <workItem from="1603590411149" duration="1415000" />
+      <workItem from="1603720190816" duration="3891000" />
+      <workItem from="1603896245040" duration="1593000" />
+      <workItem from="1604420015337" duration="970000" />
+    </task>
+    <task id="LOCAL-00001" summary="week01 笔记">
+      <created>1603460483181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603460483182</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Week02-1 总结笔记">
+      <created>1603731875229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603731875229</updated>
+    </task>
+    <task id="LOCAL-00003" summary="删除文件">
+      <created>1604420046396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604420046396</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="week01 笔记" />
+    <MESSAGE value="Week02-1 总结笔记" />
+    <MESSAGE value="删除文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除文件" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1604420045308">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1462.864@0.0.1462.864" timestamp="1604420045308" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603731873973" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603897837309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603897837309" />
+    <state x="498" y="114" key="RollbackChangesDialog" timestamp="1603731713496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603731713496" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1603897043270">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603897043270" />
+    <state x="468" y="144" width="600" height="536" key="find.popup" timestamp="1603897302635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="144" width="600" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603897302635" />
+    <state x="178" y="22" key="new project wizard" timestamp="1603897837865">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1603897837865" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603897109006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603897109006" />
+  </component>
+</project>
